@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67A7A19A26E917D400F3F184 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A7A19926E917D400F3F184 /* AppDelegate.swift */; };
+		67A7A19C26E917D400F3F184 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A7A19B26E917D400F3F184 /* SceneDelegate.swift */; };
+		67A7A19E26E917D400F3F184 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A7A19D26E917D400F3F184 /* ViewController.swift */; };
+		67A7A1A126E917D400F3F184 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67A7A19F26E917D400F3F184 /* Main.storyboard */; };
+		67A7A1A426E917D400F3F184 /* WhereIsTheMeteor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 67A7A1A226E917D400F3F184 /* WhereIsTheMeteor.xcdatamodeld */; };
+		67A7A1A626E917D600F3F184 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67A7A1A526E917D600F3F184 /* Assets.xcassets */; };
+		67A7A1A926E917D600F3F184 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67A7A1A726E917D600F3F184 /* LaunchScreen.storyboard */; };
+		67A7A1B426E917D600F3F184 /* WhereIsTheMeteorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A7A1B326E917D600F3F184 /* WhereIsTheMeteorTests.swift */; };
+		67A7A1BF26E917D600F3F184 /* WhereIsTheMeteorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A7A1BE26E917D600F3F184 /* WhereIsTheMeteorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67A7A1B026E917D600F3F184 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67A7A18E26E917D400F3F184 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67A7A19526E917D400F3F184;
+			remoteInfo = WhereIsTheMeteor;
+		};
+		67A7A1BB26E917D600F3F184 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67A7A18E26E917D400F3F184 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67A7A19526E917D400F3F184;
+			remoteInfo = WhereIsTheMeteor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		67A7A19626E917D400F3F184 /* WhereIsTheMeteor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhereIsTheMeteor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67A7A19926E917D400F3F184 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		67A7A19B26E917D400F3F184 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		67A7A19D26E917D400F3F184 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		67A7A1A026E917D400F3F184 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67A7A1A326E917D400F3F184 /* WhereIsTheMeteor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WhereIsTheMeteor.xcdatamodel; sourceTree = "<group>"; };
+		67A7A1A526E917D600F3F184 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67A7A1A826E917D600F3F184 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		67A7A1AA26E917D600F3F184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67A7A1AF26E917D600F3F184 /* WhereIsTheMeteorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhereIsTheMeteorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67A7A1B326E917D600F3F184 /* WhereIsTheMeteorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhereIsTheMeteorTests.swift; sourceTree = "<group>"; };
+		67A7A1B526E917D600F3F184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67A7A1BA26E917D600F3F184 /* WhereIsTheMeteorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhereIsTheMeteorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67A7A1BE26E917D600F3F184 /* WhereIsTheMeteorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhereIsTheMeteorUITests.swift; sourceTree = "<group>"; };
+		67A7A1C026E917D600F3F184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67A7A19326E917D400F3F184 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67A7A1AC26E917D600F3F184 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67A7A1B726E917D600F3F184 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67A7A18D26E917D400F3F184 = {
+			isa = PBXGroup;
+			children = (
+				67A7A19826E917D400F3F184 /* WhereIsTheMeteor */,
+				67A7A1B226E917D600F3F184 /* WhereIsTheMeteorTests */,
+				67A7A1BD26E917D600F3F184 /* WhereIsTheMeteorUITests */,
+				67A7A19726E917D400F3F184 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67A7A19726E917D400F3F184 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67A7A19626E917D400F3F184 /* WhereIsTheMeteor.app */,
+				67A7A1AF26E917D600F3F184 /* WhereIsTheMeteorTests.xctest */,
+				67A7A1BA26E917D600F3F184 /* WhereIsTheMeteorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67A7A19826E917D400F3F184 /* WhereIsTheMeteor */ = {
+			isa = PBXGroup;
+			children = (
+				67A7A19926E917D400F3F184 /* AppDelegate.swift */,
+				67A7A19B26E917D400F3F184 /* SceneDelegate.swift */,
+				67A7A19D26E917D400F3F184 /* ViewController.swift */,
+				67A7A19F26E917D400F3F184 /* Main.storyboard */,
+				67A7A1A526E917D600F3F184 /* Assets.xcassets */,
+				67A7A1A726E917D600F3F184 /* LaunchScreen.storyboard */,
+				67A7A1AA26E917D600F3F184 /* Info.plist */,
+				67A7A1A226E917D400F3F184 /* WhereIsTheMeteor.xcdatamodeld */,
+			);
+			path = WhereIsTheMeteor;
+			sourceTree = "<group>";
+		};
+		67A7A1B226E917D600F3F184 /* WhereIsTheMeteorTests */ = {
+			isa = PBXGroup;
+			children = (
+				67A7A1B326E917D600F3F184 /* WhereIsTheMeteorTests.swift */,
+				67A7A1B526E917D600F3F184 /* Info.plist */,
+			);
+			path = WhereIsTheMeteorTests;
+			sourceTree = "<group>";
+		};
+		67A7A1BD26E917D600F3F184 /* WhereIsTheMeteorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				67A7A1BE26E917D600F3F184 /* WhereIsTheMeteorUITests.swift */,
+				67A7A1C026E917D600F3F184 /* Info.plist */,
+			);
+			path = WhereIsTheMeteorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67A7A19526E917D400F3F184 /* WhereIsTheMeteor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67A7A1C326E917D600F3F184 /* Build configuration list for PBXNativeTarget "WhereIsTheMeteor" */;
+			buildPhases = (
+				67A7A19226E917D400F3F184 /* Sources */,
+				67A7A19326E917D400F3F184 /* Frameworks */,
+				67A7A19426E917D400F3F184 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhereIsTheMeteor;
+			productName = WhereIsTheMeteor;
+			productReference = 67A7A19626E917D400F3F184 /* WhereIsTheMeteor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67A7A1AE26E917D600F3F184 /* WhereIsTheMeteorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67A7A1C626E917D600F3F184 /* Build configuration list for PBXNativeTarget "WhereIsTheMeteorTests" */;
+			buildPhases = (
+				67A7A1AB26E917D600F3F184 /* Sources */,
+				67A7A1AC26E917D600F3F184 /* Frameworks */,
+				67A7A1AD26E917D600F3F184 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67A7A1B126E917D600F3F184 /* PBXTargetDependency */,
+			);
+			name = WhereIsTheMeteorTests;
+			productName = WhereIsTheMeteorTests;
+			productReference = 67A7A1AF26E917D600F3F184 /* WhereIsTheMeteorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		67A7A1B926E917D600F3F184 /* WhereIsTheMeteorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67A7A1C926E917D600F3F184 /* Build configuration list for PBXNativeTarget "WhereIsTheMeteorUITests" */;
+			buildPhases = (
+				67A7A1B626E917D600F3F184 /* Sources */,
+				67A7A1B726E917D600F3F184 /* Frameworks */,
+				67A7A1B826E917D600F3F184 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67A7A1BC26E917D600F3F184 /* PBXTargetDependency */,
+			);
+			name = WhereIsTheMeteorUITests;
+			productName = WhereIsTheMeteorUITests;
+			productReference = 67A7A1BA26E917D600F3F184 /* WhereIsTheMeteorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67A7A18E26E917D400F3F184 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					67A7A19526E917D400F3F184 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					67A7A1AE26E917D600F3F184 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 67A7A19526E917D400F3F184;
+					};
+					67A7A1B926E917D600F3F184 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 67A7A19526E917D400F3F184;
+					};
+				};
+			};
+			buildConfigurationList = 67A7A19126E917D400F3F184 /* Build configuration list for PBXProject "WhereIsTheMeteor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67A7A18D26E917D400F3F184;
+			productRefGroup = 67A7A19726E917D400F3F184 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67A7A19526E917D400F3F184 /* WhereIsTheMeteor */,
+				67A7A1AE26E917D600F3F184 /* WhereIsTheMeteorTests */,
+				67A7A1B926E917D600F3F184 /* WhereIsTheMeteorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67A7A19426E917D400F3F184 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67A7A1A926E917D600F3F184 /* LaunchScreen.storyboard in Resources */,
+				67A7A1A626E917D600F3F184 /* Assets.xcassets in Resources */,
+				67A7A1A126E917D400F3F184 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67A7A1AD26E917D600F3F184 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67A7A1B826E917D600F3F184 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67A7A19226E917D400F3F184 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67A7A19E26E917D400F3F184 /* ViewController.swift in Sources */,
+				67A7A1A426E917D400F3F184 /* WhereIsTheMeteor.xcdatamodeld in Sources */,
+				67A7A19A26E917D400F3F184 /* AppDelegate.swift in Sources */,
+				67A7A19C26E917D400F3F184 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67A7A1AB26E917D600F3F184 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67A7A1B426E917D600F3F184 /* WhereIsTheMeteorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67A7A1B626E917D600F3F184 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67A7A1BF26E917D600F3F184 /* WhereIsTheMeteorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67A7A1B126E917D600F3F184 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67A7A19526E917D400F3F184 /* WhereIsTheMeteor */;
+			targetProxy = 67A7A1B026E917D600F3F184 /* PBXContainerItemProxy */;
+		};
+		67A7A1BC26E917D600F3F184 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67A7A19526E917D400F3F184 /* WhereIsTheMeteor */;
+			targetProxy = 67A7A1BB26E917D600F3F184 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		67A7A19F26E917D400F3F184 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67A7A1A026E917D400F3F184 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		67A7A1A726E917D600F3F184 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67A7A1A826E917D600F3F184 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67A7A1C126E917D600F3F184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		67A7A1C226E917D600F3F184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67A7A1C426E917D600F3F184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N7AZRND92Z;
+				INFOPLIST_FILE = WhereIsTheMeteor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vcapilladeveloper.WhereIsTheMeteor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67A7A1C526E917D600F3F184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N7AZRND92Z;
+				INFOPLIST_FILE = WhereIsTheMeteor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vcapilladeveloper.WhereIsTheMeteor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		67A7A1C726E917D600F3F184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N7AZRND92Z;
+				INFOPLIST_FILE = WhereIsTheMeteorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vcapilladeveloper.WhereIsTheMeteorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhereIsTheMeteor.app/WhereIsTheMeteor";
+			};
+			name = Debug;
+		};
+		67A7A1C826E917D600F3F184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N7AZRND92Z;
+				INFOPLIST_FILE = WhereIsTheMeteorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vcapilladeveloper.WhereIsTheMeteorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhereIsTheMeteor.app/WhereIsTheMeteor";
+			};
+			name = Release;
+		};
+		67A7A1CA26E917D600F3F184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N7AZRND92Z;
+				INFOPLIST_FILE = WhereIsTheMeteorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vcapilladeveloper.WhereIsTheMeteorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WhereIsTheMeteor;
+			};
+			name = Debug;
+		};
+		67A7A1CB26E917D600F3F184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N7AZRND92Z;
+				INFOPLIST_FILE = WhereIsTheMeteorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vcapilladeveloper.WhereIsTheMeteorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WhereIsTheMeteor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67A7A19126E917D400F3F184 /* Build configuration list for PBXProject "WhereIsTheMeteor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67A7A1C126E917D600F3F184 /* Debug */,
+				67A7A1C226E917D600F3F184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67A7A1C326E917D600F3F184 /* Build configuration list for PBXNativeTarget "WhereIsTheMeteor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67A7A1C426E917D600F3F184 /* Debug */,
+				67A7A1C526E917D600F3F184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67A7A1C626E917D600F3F184 /* Build configuration list for PBXNativeTarget "WhereIsTheMeteorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67A7A1C726E917D600F3F184 /* Debug */,
+				67A7A1C826E917D600F3F184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67A7A1C926E917D600F3F184 /* Build configuration list for PBXNativeTarget "WhereIsTheMeteorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67A7A1CA26E917D600F3F184 /* Debug */,
+				67A7A1CB26E917D600F3F184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		67A7A1A226E917D400F3F184 /* WhereIsTheMeteor.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				67A7A1A326E917D400F3F184 /* WhereIsTheMeteor.xcdatamodel */,
+			);
+			currentVersion = 67A7A1A326E917D400F3F184 /* WhereIsTheMeteor.xcdatamodel */;
+			path = WhereIsTheMeteor.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 67A7A18E26E917D400F3F184 /* Project object */;
+}
