@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="YearPickerView" customModule="WhereIsTheMeteor" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="gdi-wT-boU"/>
+                <outlet property="yearPicker" destination="Cd1-07-F6d" id="y8X-f0-epm"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fOl-vd-tAz">
+                    <rect key="frame" x="360" y="44" width="34" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="34" id="WOX-wv-xNQ"/>
+                        <constraint firstAttribute="height" constant="34" id="fYB-bK-dEY"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                    <state key="normal" title="X"/>
+                    <connections>
+                        <action selector="close:" destination="-1" eventType="touchUpInside" id="D24-I1-jAg"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ux0-ZI-KQp">
+                    <rect key="frame" x="12" y="340" width="390" height="216"/>
+                    <subviews>
+                        <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cd1-07-F6d">
+                            <rect key="frame" x="0.0" y="0.0" width="390" height="216"/>
+                        </pickerView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="Cd1-07-F6d" secondAttribute="bottom" id="2jZ-59-fep"/>
+                        <constraint firstItem="Cd1-07-F6d" firstAttribute="leading" secondItem="ux0-ZI-KQp" secondAttribute="leading" id="LIm-io-ZLK"/>
+                        <constraint firstAttribute="trailing" secondItem="Cd1-07-F6d" secondAttribute="trailing" id="Oq4-o3-HNL"/>
+                        <constraint firstItem="Cd1-07-F6d" firstAttribute="top" secondItem="ux0-ZI-KQp" secondAttribute="top" id="h8B-RB-6un"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.66666666669999997" alpha="0.84031139960000001" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="ux0-ZI-KQp" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="HtA-lQ-aT4"/>
+                <constraint firstItem="ux0-ZI-KQp" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="I53-Qv-HRK"/>
+                <constraint firstItem="ux0-ZI-KQp" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="OsR-JA-uo1"/>
+                <constraint firstAttribute="trailing" secondItem="ux0-ZI-KQp" secondAttribute="trailing" constant="12" id="Sp1-zr-LDG"/>
+                <constraint firstItem="fOl-vd-tAz" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="h1P-qP-SBz"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="fOl-vd-tAz" secondAttribute="trailing" constant="20" id="tqo-S5-Fv2"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="139" y="75"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

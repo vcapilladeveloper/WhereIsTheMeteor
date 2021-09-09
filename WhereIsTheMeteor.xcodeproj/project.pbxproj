@@ -7,15 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6719319E26EA869A005B8066 /* YearPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6719319D26EA869A005B8066 /* YearPickerView.xib */; };
+		671931A026EA879F005B8066 /* YearPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6719319F26EA879F005B8066 /* YearPickerView.swift */; };
+		671931A226EA96E0005B8066 /* FavoritesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671931A126EA96E0005B8066 /* FavoritesManager.swift */; };
+		673E957426EAA50800EA2037 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673E957326EAA50800EA2037 /* MapViewController.swift */; };
 		67A7A19A26E917D400F3F184 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A7A19926E917D400F3F184 /* AppDelegate.swift */; };
 		67A7A19C26E917D400F3F184 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A7A19B26E917D400F3F184 /* SceneDelegate.swift */; };
-		67A7A19E26E917D400F3F184 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A7A19D26E917D400F3F184 /* ViewController.swift */; };
+		67A7A19E26E917D400F3F184 /* MeteorLandingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A7A19D26E917D400F3F184 /* MeteorLandingListViewController.swift */; };
 		67A7A1A126E917D400F3F184 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67A7A19F26E917D400F3F184 /* Main.storyboard */; };
 		67A7A1A426E917D400F3F184 /* WhereIsTheMeteor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 67A7A1A226E917D400F3F184 /* WhereIsTheMeteor.xcdatamodeld */; };
 		67A7A1A626E917D600F3F184 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67A7A1A526E917D600F3F184 /* Assets.xcassets */; };
 		67A7A1A926E917D600F3F184 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67A7A1A726E917D600F3F184 /* LaunchScreen.storyboard */; };
 		67A7A1B426E917D600F3F184 /* WhereIsTheMeteorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A7A1B326E917D600F3F184 /* WhereIsTheMeteorTests.swift */; };
 		67A7A1BF26E917D600F3F184 /* WhereIsTheMeteorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A7A1BE26E917D600F3F184 /* WhereIsTheMeteorUITests.swift */; };
+		67A7A1DC26E926D000F3F184 /* MeteorLanding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A7A1DB26E926D000F3F184 /* MeteorLanding.swift */; };
+		67A7A1E426E92CA600F3F184 /* EnvUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A7A1E326E92CA600F3F184 /* EnvUtils.swift */; };
+		67A7A1E626E92CE300F3F184 /* EnvUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A7A1E526E92CE300F3F184 /* EnvUtilsTests.swift */; };
+		67AA02C726E955A400AC2A45 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AA02C626E955A400AC2A45 /* NetworkClient.swift */; };
+		67AA02C926E9579F00AC2A45 /* NetworkClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AA02C826E9579F00AC2A45 /* NetworkClientTests.swift */; };
+		67AA02CB26E9595300AC2A45 /* MockURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AA02CA26E9595300AC2A45 /* MockURLSession.swift */; };
+		67AA02CD26E9617900AC2A45 /* DataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AA02CC26E9617900AC2A45 /* DataParser.swift */; };
+		67AA02CF26E9636800AC2A45 /* DataParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AA02CE26E9636800AC2A45 /* DataParserTests.swift */; };
+		67AA02D226E96ACA00AC2A45 /* MeteorLandingListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AA02D126E96ACA00AC2A45 /* MeteorLandingListViewModel.swift */; };
+		67AA02D426E9710D00AC2A45 /* MockMeteorLandingRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AA02D326E9710D00AC2A45 /* MockMeteorLandingRepository.swift */; };
+		67AA02D626E9720A00AC2A45 /* MeteorLandingListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AA02D526E9720A00AC2A45 /* MeteorLandingListViewModelTests.swift */; };
+		67AA02D826E9737C00AC2A45 /* MeteorLandingRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AA02D726E9737C00AC2A45 /* MeteorLandingRepository.swift */; };
+		67AA02DA26EA308B00AC2A45 /* MeteorLandingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AA02D926EA308B00AC2A45 /* MeteorLandingTableViewCell.swift */; };
+		67AA02DC26EA40F300AC2A45 /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AA02DB26EA40F300AC2A45 /* DateUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +54,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6719319D26EA869A005B8066 /* YearPickerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YearPickerView.xib; sourceTree = "<group>"; };
+		6719319F26EA879F005B8066 /* YearPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearPickerView.swift; sourceTree = "<group>"; };
+		671931A126EA96E0005B8066 /* FavoritesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesManager.swift; sourceTree = "<group>"; };
+		673E957326EAA50800EA2037 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		67A7A19626E917D400F3F184 /* WhereIsTheMeteor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhereIsTheMeteor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67A7A19926E917D400F3F184 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67A7A19B26E917D400F3F184 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		67A7A19D26E917D400F3F184 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		67A7A19D26E917D400F3F184 /* MeteorLandingListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteorLandingListViewController.swift; sourceTree = "<group>"; };
 		67A7A1A026E917D400F3F184 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		67A7A1A326E917D400F3F184 /* WhereIsTheMeteor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WhereIsTheMeteor.xcdatamodel; sourceTree = "<group>"; };
 		67A7A1A526E917D600F3F184 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +73,20 @@
 		67A7A1BA26E917D600F3F184 /* WhereIsTheMeteorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhereIsTheMeteorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67A7A1BE26E917D600F3F184 /* WhereIsTheMeteorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhereIsTheMeteorUITests.swift; sourceTree = "<group>"; };
 		67A7A1C026E917D600F3F184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67A7A1DB26E926D000F3F184 /* MeteorLanding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteorLanding.swift; sourceTree = "<group>"; };
+		67A7A1E326E92CA600F3F184 /* EnvUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvUtils.swift; sourceTree = "<group>"; };
+		67A7A1E526E92CE300F3F184 /* EnvUtilsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvUtilsTests.swift; sourceTree = "<group>"; };
+		67AA02C626E955A400AC2A45 /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		67AA02C826E9579F00AC2A45 /* NetworkClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClientTests.swift; sourceTree = "<group>"; };
+		67AA02CA26E9595300AC2A45 /* MockURLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLSession.swift; sourceTree = "<group>"; };
+		67AA02CC26E9617900AC2A45 /* DataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataParser.swift; sourceTree = "<group>"; };
+		67AA02CE26E9636800AC2A45 /* DataParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataParserTests.swift; sourceTree = "<group>"; };
+		67AA02D126E96ACA00AC2A45 /* MeteorLandingListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteorLandingListViewModel.swift; sourceTree = "<group>"; };
+		67AA02D326E9710D00AC2A45 /* MockMeteorLandingRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockMeteorLandingRepository.swift; sourceTree = "<group>"; };
+		67AA02D526E9720A00AC2A45 /* MeteorLandingListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteorLandingListViewModelTests.swift; sourceTree = "<group>"; };
+		67AA02D726E9737C00AC2A45 /* MeteorLandingRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteorLandingRepository.swift; sourceTree = "<group>"; };
+		67AA02D926EA308B00AC2A45 /* MeteorLandingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteorLandingTableViewCell.swift; sourceTree = "<group>"; };
+		67AA02DB26EA40F300AC2A45 /* DateUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,13 +137,12 @@
 		67A7A19826E917D400F3F184 /* WhereIsTheMeteor */ = {
 			isa = PBXGroup;
 			children = (
-				67A7A19926E917D400F3F184 /* AppDelegate.swift */,
-				67A7A19B26E917D400F3F184 /* SceneDelegate.swift */,
-				67A7A19D26E917D400F3F184 /* ViewController.swift */,
-				67A7A19F26E917D400F3F184 /* Main.storyboard */,
-				67A7A1A526E917D600F3F184 /* Assets.xcassets */,
-				67A7A1A726E917D600F3F184 /* LaunchScreen.storyboard */,
-				67A7A1AA26E917D600F3F184 /* Info.plist */,
+				67AA02D026E9698400AC2A45 /* ViewModels */,
+				67A7A1E226E92C8A00F3F184 /* Utils */,
+				67A7A1DA26E926B000F3F184 /* Models */,
+				67A7A1CF26E9188400F3F184 /* Services */,
+				67A7A1CD26E9183000F3F184 /* SupportFiles */,
+				67A7A1CE26E9187000F3F184 /* Views */,
 				67A7A1A226E917D400F3F184 /* WhereIsTheMeteor.xcdatamodeld */,
 			);
 			path = WhereIsTheMeteor;
@@ -118,6 +153,12 @@
 			children = (
 				67A7A1B326E917D600F3F184 /* WhereIsTheMeteorTests.swift */,
 				67A7A1B526E917D600F3F184 /* Info.plist */,
+				67A7A1E526E92CE300F3F184 /* EnvUtilsTests.swift */,
+				67AA02C826E9579F00AC2A45 /* NetworkClientTests.swift */,
+				67AA02CA26E9595300AC2A45 /* MockURLSession.swift */,
+				67AA02CE26E9636800AC2A45 /* DataParserTests.swift */,
+				67AA02D326E9710D00AC2A45 /* MockMeteorLandingRepository.swift */,
+				67AA02D526E9720A00AC2A45 /* MeteorLandingListViewModelTests.swift */,
 			);
 			path = WhereIsTheMeteorTests;
 			sourceTree = "<group>";
@@ -129,6 +170,67 @@
 				67A7A1C026E917D600F3F184 /* Info.plist */,
 			);
 			path = WhereIsTheMeteorUITests;
+			sourceTree = "<group>";
+		};
+		67A7A1CD26E9183000F3F184 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				67A7A19B26E917D400F3F184 /* SceneDelegate.swift */,
+				67A7A19926E917D400F3F184 /* AppDelegate.swift */,
+				67A7A1A526E917D600F3F184 /* Assets.xcassets */,
+				67A7A1AA26E917D600F3F184 /* Info.plist */,
+			);
+			name = SupportFiles;
+			sourceTree = "<group>";
+		};
+		67A7A1CE26E9187000F3F184 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				67A7A19D26E917D400F3F184 /* MeteorLandingListViewController.swift */,
+				67A7A19F26E917D400F3F184 /* Main.storyboard */,
+				67A7A1A726E917D600F3F184 /* LaunchScreen.storyboard */,
+				67AA02D926EA308B00AC2A45 /* MeteorLandingTableViewCell.swift */,
+				6719319D26EA869A005B8066 /* YearPickerView.xib */,
+				6719319F26EA879F005B8066 /* YearPickerView.swift */,
+				673E957326EAA50800EA2037 /* MapViewController.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		67A7A1CF26E9188400F3F184 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				67AA02C626E955A400AC2A45 /* NetworkClient.swift */,
+				67AA02D726E9737C00AC2A45 /* MeteorLandingRepository.swift */,
+				671931A126EA96E0005B8066 /* FavoritesManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		67A7A1DA26E926B000F3F184 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				67A7A1DB26E926D000F3F184 /* MeteorLanding.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		67A7A1E226E92C8A00F3F184 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				67A7A1E326E92CA600F3F184 /* EnvUtils.swift */,
+				67AA02CC26E9617900AC2A45 /* DataParser.swift */,
+				67AA02DB26EA40F300AC2A45 /* DateUtils.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		67AA02D026E9698400AC2A45 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				67AA02D126E96ACA00AC2A45 /* MeteorLandingListViewModel.swift */,
+			);
+			name = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +337,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				67A7A1A926E917D600F3F184 /* LaunchScreen.storyboard in Resources */,
+				6719319E26EA869A005B8066 /* YearPickerView.xib in Resources */,
 				67A7A1A626E917D600F3F184 /* Assets.xcassets in Resources */,
 				67A7A1A126E917D400F3F184 /* Main.storyboard in Resources */,
 			);
@@ -261,10 +364,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67A7A19E26E917D400F3F184 /* ViewController.swift in Sources */,
+				67A7A19E26E917D400F3F184 /* MeteorLandingListViewController.swift in Sources */,
+				67AA02DC26EA40F300AC2A45 /* DateUtils.swift in Sources */,
+				67AA02DA26EA308B00AC2A45 /* MeteorLandingTableViewCell.swift in Sources */,
+				671931A226EA96E0005B8066 /* FavoritesManager.swift in Sources */,
+				671931A026EA879F005B8066 /* YearPickerView.swift in Sources */,
+				67A7A1E426E92CA600F3F184 /* EnvUtils.swift in Sources */,
+				67AA02CD26E9617900AC2A45 /* DataParser.swift in Sources */,
 				67A7A1A426E917D400F3F184 /* WhereIsTheMeteor.xcdatamodeld in Sources */,
 				67A7A19A26E917D400F3F184 /* AppDelegate.swift in Sources */,
+				67AA02D826E9737C00AC2A45 /* MeteorLandingRepository.swift in Sources */,
+				67AA02D226E96ACA00AC2A45 /* MeteorLandingListViewModel.swift in Sources */,
+				67AA02C726E955A400AC2A45 /* NetworkClient.swift in Sources */,
 				67A7A19C26E917D400F3F184 /* SceneDelegate.swift in Sources */,
+				673E957426EAA50800EA2037 /* MapViewController.swift in Sources */,
+				67A7A1DC26E926D000F3F184 /* MeteorLanding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +386,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67AA02D426E9710D00AC2A45 /* MockMeteorLandingRepository.swift in Sources */,
+				67AA02CB26E9595300AC2A45 /* MockURLSession.swift in Sources */,
 				67A7A1B426E917D600F3F184 /* WhereIsTheMeteorTests.swift in Sources */,
+				67AA02CF26E9636800AC2A45 /* DataParserTests.swift in Sources */,
+				67A7A1E626E92CE300F3F184 /* EnvUtilsTests.swift in Sources */,
+				67AA02D626E9720A00AC2A45 /* MeteorLandingListViewModelTests.swift in Sources */,
+				67AA02C926E9579F00AC2A45 /* NetworkClientTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +560,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				AUTH_TOKEN = fgZz58NWKrRieKIs8mEpmZ3Y4;
+				BASE_URL = "https://data.nasa.gov/resource/";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N7AZRND92Z;
 				INFOPLIST_FILE = WhereIsTheMeteor/Info.plist;
@@ -459,6 +581,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				AUTH_TOKEN = fgZz58NWKrRieKIs8mEpmZ3Y4;
+				BASE_URL = "https://data.nasa.gov/resource/";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N7AZRND92Z;
 				INFOPLIST_FILE = WhereIsTheMeteor/Info.plist;
