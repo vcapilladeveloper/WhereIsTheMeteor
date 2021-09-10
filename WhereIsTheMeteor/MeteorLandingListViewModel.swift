@@ -16,7 +16,7 @@ enum MeteorLandingSortBy: String, CaseIterable {
 }
 
 class MeteorLandingListViewModel {
-    
+    // MARK: - Properties
     let minimumYear = 1900
     let cellIdentifier = "meteorLandingCell"
     let meteorLandingSortBy = MeteorLandingSortBy.allCases
