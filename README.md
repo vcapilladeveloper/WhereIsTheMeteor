@@ -8,7 +8,7 @@ All the code inside this project is make it by me, without using external librar
 
 - For persistent data I used CoreData.
 - The Arq Patter that I used is MVVM-C. Form the Clean I only use the repository layer.
-- For the map I use the native MapKit
+- For the map I use the native MapKit.
 - In the BuildSettings I create 2 User-Defined settings, one for the App Token and the other for the base URL.
 
 ### First View
@@ -18,8 +18,10 @@ All the code inside this project is make it by me, without using external librar
 - The cell have a button with an image of a star, that is used for check or uncheck the element like a favorite. When you click to make a new favorite, is saved on the CoreData layer.
 
 # Missing Things
-- More Tests
-- More documentation
-- Test the Persistence layer with mock CoreData context
+- More Tests.
+- More documentation.
+- Test the Persistence layer with mock CoreData context.
+- More error handling.
+- Show errors on the view.
 
 
