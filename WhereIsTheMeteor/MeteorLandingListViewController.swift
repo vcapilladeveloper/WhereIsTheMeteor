@@ -9,7 +9,9 @@ import UIKit
 import CoreLocation.CLLocation
 
 class MeteorLandingListViewController: UIViewController {
+    
     private var viewModel: MeteorLandingListViewModel = MeteorLandingListViewModel(MeteorLandingRepository())
+    let refreshControl = UIRefreshControl()
     
     @IBOutlet var tableView: UITableView!
     @IBOutlet weak var filterControl: UISegmentedControl!
@@ -36,8 +38,6 @@ class MeteorLandingListViewController: UIViewController {
     @IBAction func changeFilter(_ sender: UISegmentedControl) {
         viewModel.update(viewModel.meteorLandingSortBy[sender.selectedSegmentIndex]) 
     }
-    
-    let refreshControl = UIRefreshControl()
     
     // MARK: - Lifecycle
     override func viewDidLoad() {

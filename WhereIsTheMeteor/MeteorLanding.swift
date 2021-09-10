@@ -9,7 +9,6 @@ import Foundation
 
 // MARK: - MeteorLanding
 
-
 /// Model used to parse the meteor landing model from the API.
 struct MeteorLanding: Codable {
     let id: String

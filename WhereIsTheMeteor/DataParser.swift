@@ -6,8 +6,10 @@
 //
 
 import Foundation
+
+/// Helper for parse data from Data, infering generic type that must implement Codable protocol.
 public class DataParser {
-    public static func getData<T: Codable>(from data: Data) throws -> T? {
+    public static func getData<T: Decodable>(from data: Data) throws -> T? {
         do {
             return try JSONDecoder().decode(T.self, from: data)
         } catch {

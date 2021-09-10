@@ -7,10 +7,12 @@
 
 import Foundation
 
+/// Protocol for make more testable the Repository Layer with MOCK
 protocol MeteorLandingRepositoryProtocol {
     func fetchMeteorLandings(_ url: URL, completion: @escaping (Result<[MeteorLanding], Error>)->())
 }
 
+/// Make fetch of data with specified Result and adding header for make the AUTH with NASA API
 class MeteorLandingRepository: MeteorLandingRepositoryProtocol {
     func fetchMeteorLandings(_ url: URL, completion: @escaping (Result<[MeteorLanding], Error>) -> ()) {
         guard let authToken = EnvUtils.getConfiguration(with: "AUTH_TOKEN") else { return }

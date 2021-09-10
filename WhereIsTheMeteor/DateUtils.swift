@@ -7,6 +7,8 @@
 
 import Foundation
 
+// TODO: Make more generic, like passing the format like argument of function
+/// Helper for retrieve the year from a date in concrete format.
 struct DateUtils {
     static func getYearFromDate(_ date: String) -> String? {
         let dateFormatter = DateFormatter()
