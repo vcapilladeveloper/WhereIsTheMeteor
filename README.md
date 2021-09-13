@@ -1,6 +1,6 @@
 # Welcome to WhereIsTheMeteor!
 
-I have tried to comply as much as possible with the specifications of the document in the shortest possible time. I'm not really happy with the test, it have many missing things.
+I have tried to comply as much as possible with the specifications of the document in the shortest possible time, I would like it to be good enough.
 
 ## Basic definition
 
