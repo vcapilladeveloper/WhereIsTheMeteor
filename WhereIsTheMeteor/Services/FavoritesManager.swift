@@ -8,10 +8,12 @@
 import Foundation
 import CoreData
 
+/// Type of storage used in CoreData PersistentContainer for use in Memory on Unit Tests
 enum StorageType {
   case persistent, inMemory
 }
 
+/// Persisntace protocol for make dependency Injection.
 protocol PersistenceManagerProtocol {
     func createFavoriteId(id: String) -> FavoriteMeteorLanding?
     func fetchFavoriteIds() -> [FavoriteMeteorLanding]?
@@ -20,11 +22,13 @@ protocol PersistenceManagerProtocol {
     func deleteFavoriteId(favoriteMeteorLanding: FavoriteMeteorLanding)
 }
 
+/// Core data favorites manager Class.
 struct FavoritesManager: PersistenceManagerProtocol {
     
     let persistentContainer: NSPersistentContainer
     let mainContext: NSManagedObjectContext
     
+    /// Persisntent storage type by default. We use inMemory on Unit Testing
     init(_ storageType: StorageType = .persistent) {
         self.persistentContainer = NSPersistentContainer(name: "WhereIsTheMeteor")
         if storageType == .inMemory {
@@ -42,6 +46,7 @@ struct FavoritesManager: PersistenceManagerProtocol {
         self.mainContext = persistentContainer.viewContext
     }
     
+    /// Create new FavoriteID from ID
     @discardableResult
     func createFavoriteId(id: String) -> FavoriteMeteorLanding? {
         let context = persistentContainer.viewContext
@@ -60,6 +65,7 @@ struct FavoritesManager: PersistenceManagerProtocol {
         return nil
     }
     
+    /// Fetch all FavoriteIds from Persistence
     func fetchFavoriteIds() -> [FavoriteMeteorLanding]? {
         let context = persistentContainer.viewContext
         
@@ -75,6 +81,7 @@ struct FavoritesManager: PersistenceManagerProtocol {
         return nil
     }
     
+    /// Fetch FavoriteId from Persistence with the same id passed through the parameter
     func fetchFavoriteId(withId id: String) -> FavoriteMeteorLanding? {
         let context = persistentContainer.viewContext
         
@@ -92,6 +99,7 @@ struct FavoritesManager: PersistenceManagerProtocol {
         return nil
     }
     
+    /// Update one favoriteId sended through parameter
     func updateFavoriteId(favoriteMeteorLanding: FavoriteMeteorLanding) {
         let context = persistentContainer.viewContext
         
@@ -102,6 +110,7 @@ struct FavoritesManager: PersistenceManagerProtocol {
         }
     }
     
+    /// Remove one favoriteId sended through parameter
     func deleteFavoriteId(favoriteMeteorLanding: FavoriteMeteorLanding) {
         let context = persistentContainer.viewContext
         context.delete(favoriteMeteorLanding)
