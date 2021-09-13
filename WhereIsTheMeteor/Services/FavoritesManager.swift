@@ -8,6 +8,10 @@
 import Foundation
 import CoreData
 
+enum StorageType {
+  case persistent, inMemory
+}
+
 protocol PersistenceManagerProtocol {
     func createFavoriteId(id: String) -> FavoriteMeteorLanding?
     func fetchFavoriteIds() -> [FavoriteMeteorLanding]?
@@ -21,15 +25,21 @@ struct FavoritesManager: PersistenceManagerProtocol {
     let persistentContainer: NSPersistentContainer
     let mainContext: NSManagedObjectContext
     
-    init() {
-        persistentContainer = NSPersistentContainer(name: "WhereIsTheMeteor")
-        persistentContainer.loadPersistentStores { description, error in
+    init(_ storageType: StorageType = .persistent) {
+        self.persistentContainer = NSPersistentContainer(name: "WhereIsTheMeteor")
+        if storageType == .inMemory {
+              let description = NSPersistentStoreDescription()
+              description.url = URL(fileURLWithPath: "/dev/null")
+              self.persistentContainer.persistentStoreDescriptions = [description]
+            }
+
+        self.persistentContainer.loadPersistentStores { description, error in
             guard error == nil else {
                 fatalError("was unable to load store \(error!)")
             }
         }
         
-        mainContext = persistentContainer.viewContext
+        self.mainContext = persistentContainer.viewContext
     }
     
     @discardableResult

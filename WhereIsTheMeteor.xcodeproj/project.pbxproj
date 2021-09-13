@@ -11,6 +11,7 @@
 		671931A026EA879F005B8066 /* YearPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6719319F26EA879F005B8066 /* YearPickerView.swift */; };
 		671931A226EA96E0005B8066 /* FavoritesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671931A126EA96E0005B8066 /* FavoritesManager.swift */; };
 		673E957426EAA50800EA2037 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673E957326EAA50800EA2037 /* MapViewController.swift */; };
+		6777C72026EF95D6007231A4 /* FavoritesManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6777C71F26EF95D6007231A4 /* FavoritesManagerTest.swift */; };
 		677D484826EAC56D00EF409B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 677D484726EAC56D00EF409B /* README.md */; };
 		67A7A19A26E917D400F3F184 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A7A19926E917D400F3F184 /* AppDelegate.swift */; };
 		67A7A19C26E917D400F3F184 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A7A19B26E917D400F3F184 /* SceneDelegate.swift */; };
@@ -59,6 +60,7 @@
 		6719319F26EA879F005B8066 /* YearPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearPickerView.swift; sourceTree = "<group>"; };
 		671931A126EA96E0005B8066 /* FavoritesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesManager.swift; sourceTree = "<group>"; };
 		673E957326EAA50800EA2037 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		6777C71F26EF95D6007231A4 /* FavoritesManagerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesManagerTest.swift; sourceTree = "<group>"; };
 		677D484726EAC56D00EF409B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		67A7A19626E917D400F3F184 /* WhereIsTheMeteor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhereIsTheMeteor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67A7A19926E917D400F3F184 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -196,6 +198,7 @@
 				6719319D26EA869A005B8066 /* YearPickerView.xib */,
 				6719319F26EA879F005B8066 /* YearPickerView.swift */,
 				673E957326EAA50800EA2037 /* MapViewController.swift */,
+				6777C71F26EF95D6007231A4 /* FavoritesManagerTest.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -393,6 +396,7 @@
 				67AA02D426E9710D00AC2A45 /* MockMeteorLandingRepository.swift in Sources */,
 				67AA02CB26E9595300AC2A45 /* MockURLSession.swift in Sources */,
 				67A7A1B426E917D600F3F184 /* WhereIsTheMeteorTests.swift in Sources */,
+				6777C72026EF95D6007231A4 /* FavoritesManagerTest.swift in Sources */,
 				67AA02CF26E9636800AC2A45 /* DataParserTests.swift in Sources */,
 				67A7A1E626E92CE300F3F184 /* EnvUtilsTests.swift in Sources */,
 				67AA02D626E9720A00AC2A45 /* MeteorLandingListViewModelTests.swift in Sources */,

@@ -20,8 +20,3 @@ All the code inside this project is make it by me, without using external librar
 # Missing Things
 - More Tests.
 - More documentation.
-- Test the Persistence layer with mock CoreData context.
-- More error handling.
-- Show errors on the view.
-
-

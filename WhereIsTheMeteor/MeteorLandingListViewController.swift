@@ -49,6 +49,10 @@ class MeteorLandingListViewController: UIViewController {
         viewModel.updateUI = { [weak self] in
             self?.updateUI()
         }
+        
+        viewModel.showError = { [weak self] errorMessage in
+            self?.showErrorWithMessage(errorMessage)
+        }
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -77,6 +81,12 @@ class MeteorLandingListViewController: UIViewController {
         loadingAnimation()
         tableView.refreshControl?.addTarget(self, action: #selector(refreshTableView), for: .valueChanged)
         
+    }
+    
+    private func showErrorWithMessage(_ errorMessage: String) {
+        let alert = UIAlertController(title: "Error", message: "\(errorMessage)", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .default))
+        self.present(alert, animated: true, completion: nil)
     }
     
     // MARK: Setup Segmented Control

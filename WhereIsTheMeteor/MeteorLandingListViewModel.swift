@@ -23,6 +23,7 @@ class MeteorLandingListViewModel {
     
     var meteorLanding: [MeteorLanding] = []
     var updateUI: (() -> ())?
+    var showError: ((String) -> ())?
     var fetchDataYear: Int = 1900
     var fetchRepository: MeteorLandingRepositoryProtocol
     var meteorLandingSortType: MeteorLandingSortBy = .alphabeticaly
@@ -59,7 +60,7 @@ extension MeteorLandingListViewModel {
             case .success(let meteorLandings):
                 self?.refreshData(meteorLandings)
             case .failure(let error):
-                print("error -\(error.localizedDescription)")
+                self?.showError?(error.localizedDescription)
             }
         }
     }
